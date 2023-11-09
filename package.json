@@ -6,14 +6,10 @@
     "license": "UNLICENSED",
     "private": true,
     "dependencies": {
-        "@sap-cloud-sdk/http-client": "^2.1.0",
-        "@sap/cds": "^5",
-        "@sap/xsenv": "^3.2.0",
-        "express": "^4",
-        "hdb": "^0.18.3"
+       
     },
     "devDependencies": {
-        "sqlite3": "^5.0.2"
+        "sqlite3": "*"
     },
     "scripts": {
         "start": "cds run",
